@@ -9,6 +9,7 @@ on:
   push:
     branches:
       - main
+      - debug-avoid-installing-cargo-cache
 
 env:
   RUST_LOG: info
